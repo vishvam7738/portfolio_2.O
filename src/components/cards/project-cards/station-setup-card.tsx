@@ -8,10 +8,10 @@ const StationSetup = () => {
     <CardWrapper>
       <div className="relative h-full flex flex-col justify-center gap-6 py-4 sm:py-6 px-4 sm:px-8 overflow-hidden">
         <div className="relative flex justify-between w-full h-full items-stretch flex-col">
-          <div className="absolute h-full w-full aspect-[578/433] shadow-2xl rounded-lg">
+          <div className="absolute h-full w-full aspect-[578/433] shadow-2xl">
             <Image
-              src={"/projects/Station-Setup.png"}
-              alt={"Station landing page example"}
+              src={"/projects/ai-image.jpg"}
+              alt={"memories"}
               fill
               style={{
                 objectFit: "cover",
@@ -22,39 +22,42 @@ const StationSetup = () => {
           </div>
         </div>
         <div className="flex flex-col items-start gap-1">
-          <h4 className="text-xs font-medium opacity-80 uppercase flex flex-wrap gap-2 items-center">
-            <span>Project at</span>
-            <span className="flex gap-1">
+          {/* <h4 className="text-xs font-medium opacity-80 uppercase flex flex-wrap gap-2 items-center">
+          
+            {/* <span className="flex gap-1">
               <Image
                 src="/companies/01_Terra_color.png"
                 alt="TFL logo"
                 height={12}
                 width={16}
               />
-              Terraform Labs
-            </span>
-          </h4>
+              
+            </span> */}
+          {/* </h4> */} 
           <div className="w-full flex gap-2 items-center">
             <h1 className="text-2xl font-medium dark:text-white text-black uppercase opacity-90">
-              Station Setup Page
+              AI-Image Generation App
             </h1>
-            <SendmessageIcon link="https://setup-station.terra.money/" lottieName="StationSetupIcon" />
+            <SendmessageIcon link="https://github.com/vishvam7738/ai_image_generation" lottieName="StationLandingIcon" />
           </div>
           <div className="flex gap-2 flex-wrap mt-1">
             <Badge variant="default" className="text-xs">
-              Solo Developer
+              ReactJS
             </Badge>
             <Badge variant="default" className="text-xs">
-              Nextjs
+              NodeJS
             </Badge>
             <Badge variant="default" className="text-xs">
-              Javascript
+              MongoDB
             </Badge>
             <Badge variant="default" className="text-xs">
-              Figma
+              ExpressJS
             </Badge>
             <Badge variant="default" className="text-xs">
-              SCSS
+              Tailwind
+            </Badge>
+            <Badge variant="default" className="text-xs">
+              Cloudinary
             </Badge>
           </div>
         </div>
