@@ -52,7 +52,8 @@ const Download = () => {
 
   return (
     <a
-      href="https://drive.google.com/uc?export=download&id=1XsCXVyFgHSD85aU4iHITbqMnZ5SfM99w"
+      href="https://drive.google.com/uc?export=download&id=1uxmSc3IZJPcLqU8r5cH5sak74ST5aQa5
+"
       download
       className="relative z-10"
     >

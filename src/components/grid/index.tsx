@@ -197,7 +197,7 @@ const Grid = () => {
 						<StationLandingCard />
 					</BlurFade>
 				</div>
-				<div
+				{/* <div
 					key="station-setup"
 					className={cn(styles.itemGrab, styles.item)}
 					style={{
@@ -207,7 +207,7 @@ const Grid = () => {
 					<BlurFade delay={0.60}>
 						<StationSetupCard />
 					</BlurFade>
-				</div>
+				</div> */}
 				<div
 					key="alliance-dao"
 					className={cn(styles.itemGrab, styles.item)}
@@ -219,7 +219,7 @@ const Grid = () => {
 						<AllianceDaoCard />
 					</BlurFade>
 				</div>
-				<div
+				{/* <div
 					key="alliance-landing"
 					className={cn(styles.itemGrab, styles.item)}
 					style={{
@@ -229,8 +229,8 @@ const Grid = () => {
 					<BlurFade delay={0.70}>
 						<AllianceLandingCard />
 					</BlurFade>
-				</div>
-				<div
+				</div> */}
+				{/* <div
 					key="developer-landing"
 					className={cn(styles.itemGrab, styles.item)}
 					style={{
@@ -240,7 +240,7 @@ const Grid = () => {
 					<BlurFade delay={0.75}>
 						<DeveloperLandingCard />
 					</BlurFade>
-				</div>
+				</div> */}
 			</ResponsiveGridLayout>
 		</div>
 	);

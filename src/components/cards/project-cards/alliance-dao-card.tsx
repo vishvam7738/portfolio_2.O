@@ -10,7 +10,7 @@ const AllianceDao = () => {
       <div className="relative flex justify-between w-full h-full items-stretch flex-col">
         <div className="absolute h-full w-full aspect-[578/433] shadow-2xl">
           <Image
-            src={"/projects/ai-mock.jpg"}
+            src={"/projects/ai-mock2.jpg"}
             alt={"memories"}
             fill
             style={{
@@ -38,7 +38,7 @@ const AllianceDao = () => {
           <h1 className="text-2xl font-medium dark:text-white text-black uppercase opacity-90">
             AI-Mock Interviewer
           </h1>
-          <SendmessageIcon link="https://github.com/vishvam7738/ai_mock_interviewer" lottieName="StationLandingIcon" />
+          <SendmessageIcon link="https://vishvam-ai-mock-interviewer.vercel.app/" lottieName="StationLandingIcon" />
         </div>
         <div className="flex gap-2 flex-wrap mt-1">
           <Badge variant="default" className="text-xs">
@@ -55,6 +55,9 @@ const AllianceDao = () => {
           </Badge>
           <Badge variant="default" className="text-xs">
             Clerk
+          </Badge>
+          <Badge variant="default" className="text-xs">
+            PostgreSQL
           </Badge>
         </div>
       </div>

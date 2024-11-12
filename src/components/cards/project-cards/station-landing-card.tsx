@@ -10,7 +10,7 @@ const StationLanding = () => {
         <div className="relative flex justify-between w-full h-full items-stretch flex-col">
           <div className="absolute h-full w-full aspect-[578/433] shadow-2xl">
             <Image
-              src={"/projects/memories.jpg"}
+              src={"/projects/memories2.jpg"}
               alt={"memories"}
               fill
               style={{
@@ -38,7 +38,7 @@ const StationLanding = () => {
             <h1 className="text-2xl font-medium dark:text-white text-black uppercase opacity-90">
               Memories-MERN App
             </h1>
-            <SendmessageIcon link="https://vishvam-memories.vercel.app/" lottieName="StationLandingIcon" />
+            <SendmessageIcon link="https://github.com/vishvam7738/memories" lottieName="StationLandingIcon" />
           </div>
           <div className="flex gap-2 flex-wrap mt-1">
             <Badge variant="default" className="text-xs">
