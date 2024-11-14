@@ -10,7 +10,7 @@ const StationLanding = () => {
         <div className="relative flex justify-between w-full h-full items-stretch flex-col">
           <div className="absolute h-full w-full aspect-[578/433] shadow-2xl">
             <Image
-              src={"/projects/memories2.jpg"}
+              src={"/projects/memories.jpg"}
               alt={"memories"}
               fill
               style={{

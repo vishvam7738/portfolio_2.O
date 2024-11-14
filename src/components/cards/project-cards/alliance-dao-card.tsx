@@ -10,8 +10,8 @@ const AllianceDao = () => {
       <div className="relative flex justify-between w-full h-full items-stretch flex-col">
         <div className="absolute h-full w-full aspect-[578/433] shadow-2xl">
           <Image
-            src={"/projects/ai-mock2.jpg"}
-            alt={"memories"}
+            src={"/projects/ai-mock.jpg"}
+            alt={"ai-mock"}
             fill
             style={{
               objectFit: "cover",

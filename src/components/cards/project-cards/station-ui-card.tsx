@@ -10,7 +10,7 @@ const StationUI = () => {
       <div className="relative flex justify-between w-full h-full items-stretch flex-col">
         <div className="absolute h-full w-full aspect-[578/433] shadow-2xl">
           <Image
-            src={"/projects/gym2.jpg"}
+            src={"/projects/gym.jpg"}
             alt={"gym"}
             fill
             style={{
