@@ -39,7 +39,7 @@ const Grid = () => {
 	}, []);
 
 	return (
-		<div className={styles.container}>
+		<div className={`${styles.container} mt-24`}>
 			<ResponsiveGridLayout
 				useCSSTransforms
 				className={styles.layout}
