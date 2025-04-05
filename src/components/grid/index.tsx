@@ -197,7 +197,7 @@ const Grid = () => {
 						<StationLandingCard />
 					</BlurFade>
 				</div>
-				{/* <div
+				<div
 					key="station-setup"
 					className={cn(styles.itemGrab, styles.item)}
 					style={{
@@ -207,7 +207,7 @@ const Grid = () => {
 					<BlurFade delay={0.60}>
 						<StationSetupCard />
 					</BlurFade>
-				</div> */}
+				</div>
 				<div
 					key="alliance-dao"
 					className={cn(styles.itemGrab, styles.item)}

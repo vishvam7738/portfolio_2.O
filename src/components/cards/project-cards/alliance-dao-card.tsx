@@ -36,7 +36,7 @@ const AllianceDao = () => {
         {/* </h4> */} 
         <div className="w-full flex gap-2 items-center">
           <h1 className="text-2xl font-medium dark:text-white text-black uppercase opacity-90">
-            AI-Mock Interviewer
+            Mockify
           </h1>
           <SendmessageIcon link="https://vishvam-ai-mock-interviewer.vercel.app/" lottieName="StationLandingIcon" />
         </div>

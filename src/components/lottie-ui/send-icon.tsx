@@ -52,7 +52,7 @@ const SendIcon = () => {
 
   return (
     <a
-      href="https://drive.google.com/file/d/1uxmSc3IZJPcLqU8r5cH5sak74ST5aQa5/view?usp=sharing"
+      href="https://drive.google.com/file/d/1uk4GpMNs3ovkED1gcu7A7y3LuYFJPehq/view?usp=sharing"
       target="_blank"
       rel="noreferrer noopener"
       className="relative z-10"

@@ -11,7 +11,7 @@ const ResumeCard = () => {
         <div className="flex justify-between w-full items-center">
           <div className="flex flex-col items-start gap-1">
             <h4 className="text-xs font-medium opacity-50 uppercase">
-              2024 CV
+              2025 CV
             </h4>
             <h1 className="text-2xl font-medium dark:text-white text-black uppercase opacity-90">
               Resume
